@@ -6,8 +6,9 @@
    |-main
       |-java
       |    |-com.alibaba
-      |              |-calculator     // 核心模块
-      |              |     |-.java    // controller基类
+      |              |-calculator     
+      |                    |-operator // 简单工厂包
+      |              |     |-CalculatorHelper.java    // 核心计算类
       |              |
       |              |-singleton      
       |              |     |-AntSingletonTwo.java    // 单例模式
